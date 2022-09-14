@@ -1,0 +1,103 @@
+exports[`List renders complex list 1`] = `
+<ul
+  className="media-list">
+  <li
+    className="media">
+    <div
+      className="media-left">
+      <img
+        alt="No Artwork"
+        className="media-object"
+        height="60"
+        src={undefined}
+        width="60" />
+    </div>
+    <div
+      className="media-body">
+      <h5
+        className="media-heading">
+        x - y
+      </h5>
+      <span
+        className="tag tag-pill tag-info">
+        u
+      </span>
+       
+      <span
+        className="tag tag-pill tag-info">
+        i
+      </span>
+       
+      <span
+        className="tag tag-pill tag-info">
+        o
+      </span>
+       
+    </div>
+    <div
+      className="media-right">
+      <button
+        className="btn media-object btn-outline-primary"
+        onClick={false}
+        type="button">
+        F
+        avourite
+      </button>
+    </div>
+  </li>
+  <li
+    className="media">
+    <div
+      className="media-left">
+      <img
+        alt="No Artwork"
+        className="media-object"
+        height="60"
+        src={undefined}
+        width="60" />
+    </div>
+    <div
+      className="media-body">
+      <h5
+        className="media-heading">
+        q - w
+      </h5>
+      <span
+        className="tag tag-pill tag-info">
+        e
+      </span>
+       
+      <span
+        className="tag tag-pill tag-info">
+        r
+      </span>
+       
+      <span
+        className="tag tag-pill tag-info">
+        ty
+      </span>
+       
+    </div>
+    <div
+      className="media-right">
+      <button
+        className="btn media-object btn-outline-primary"
+        onClick={false}
+        type="button">
+        F
+        avourite
+      </button>
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`List renders simple list 1`] = `
+<ul
+  className="nav nav-sidebar">
+  <li>
+    x - y
+  </li>
+  <li />
+</ul>
+`;

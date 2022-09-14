@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders a initial view 1`] = `
+<div>
+  <div
+    className="pos-f-t">
+    <div
+      className="navbar navbar-fixed-top navbar-dark bg-inverse">
+      <span
+        className="navbar-brand">
+        Amido
+      </span>
+      <form
+        className="form-inline pull-xs-left"
+        onSubmit={[Function onSubmit]}>
+        <input
+          className="form-control"
+          defaultValue="U2"
+          placeholder="Search Terms"
+          type="text" />
+         
+        <button
+          className="btn btn-outline-success"
+          type="submit">
+          Search
+        </button>
+      </form>
+    </div>
+  </div>
+  <div
+    className="container-fluid">
+    <div
+      className="row">
+      <div
+        className="col-sm-3 col-md-2 sidebar">
+        <h3>
+          Favourites
+        </h3>
+        <ul
+          className="nav nav-sidebar">
+          <li />
+        </ul>
+      </div>
+      <div
+        className="col-sm-9 offset-sm-3 col-md-10 offset-md-2 main">
+        <div
+          className="row">
+          <ul
+            className="media-list" />
+        </div>
+        <div
+          className="row">
+          Use the box in the top left corner to search iTunes
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
